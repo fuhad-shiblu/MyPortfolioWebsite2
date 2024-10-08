@@ -1,8 +1,9 @@
+import ContactCompo from "../Component/ContactCompo/ContactCompo"
 
 const Contact = () => {
   return (
     <>
-      <h1>ContactPage</h1>
+      <ContactCompo/>
     </>
   )
 }

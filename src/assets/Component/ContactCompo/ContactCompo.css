@@ -1,0 +1,14 @@
+.fuhadShiblu_setContactScroll::-webkit-scrollbar{
+    width: 10px;
+}
+.fuhadShiblu_setContactScroll:hover::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 10px;
+}
+.fuhadShiblu_setContactScroll:hover::-webkit-scrollbar-thumb{
+    background: #adadad;
+    border-radius: 10px;
+}
+.fuhadShiblu_setContactScroll{
+    box-shadow: -1px 0px 12px 7px rgba(0,0,0,0.75);
+}

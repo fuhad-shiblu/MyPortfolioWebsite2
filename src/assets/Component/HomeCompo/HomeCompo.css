@@ -1,0 +1,17 @@
+.fuhadShiblu_bs{
+    box-shadow: -1px 0px 12px 7px rgba(0,0,0,0.75);
+}
+.fuhadShiblu_animated{
+    animation: colAnim 1s linear infinite;
+  }
+  @keyframes colAnim{
+    0% {
+        background-color: #bd0000;
+    }
+    50% {
+        background-color: #00bd00;
+    }
+    100% {
+        background-color: #0000bd;
+    }
+  }

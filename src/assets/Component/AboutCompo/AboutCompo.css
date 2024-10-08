@@ -1,0 +1,67 @@
+.fuhadShiblu_aboutLine::after{
+    @apply absolute bg-[#ff1818] w-full h-1 bottom-0 left-[50%] translate-x-[-50%];
+    content: '';
+}
+.fuhadShiblu_skillsLine::after{
+    @apply absolute bg-[#ff1818] w-full h-1 bottom-0 left-[50%] translate-x-[-50%];
+    content: '';
+}
+.fuhadShiblu_setAboutScroll::-webkit-scrollbar{
+    width: 10px;
+}
+.fuhadShiblu_setAboutScroll:hover::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 10px;
+}
+.fuhadShiblu_setAboutScroll:hover::-webkit-scrollbar-thumb{
+    background: #adadad;
+    border-radius: 10px;
+}
+.fuhadShiblu_setAboutScroll{
+    box-shadow: -1px 0px 12px 7px rgba(0,0,0,0.75);
+}
+.card-title{
+    @apply text-[#262626] text-2xl font-bold mb-5 text-center;
+}
+  
+.small-desc{
+    @apply text-[15px] text-justify font-normal text-[#452c2c];
+}
+.card{
+    @apply w-[300px] h-[300px] relative bg-[#f2f8f9] rounded-[10px] p-5 transition-all hover:scale-[1.05] rotate-[-5deg] hover:rotate-0 active:rotate-[5deg];
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
+}
+  .card:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(135deg, #364a60, #384c6c);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(0);
+    transition: all linear 1s;
+  }
+  
+  .card:hover:before {
+    transform: scale(50);
+  }
+  
+  .card:hover .small-desc {
+    transition: all  linear 1s;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .card:hover .card-title {
+    transition: all linear 1s;
+    color: #ffffff;
+  }
+  .fuhadShiblu_testimonialLine::after{
+    @apply absolute bg-[#ff1818] w-full h-1 bottom-0 left-[50%] translate-x-[-50%];
+    content: '';
+  }

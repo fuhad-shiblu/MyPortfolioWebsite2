@@ -2,7 +2,7 @@
 const Footer = () => {
   return (
     <>
-      <footer className="absolute left-[50%] translate-x-[-50%] mt-5 text-xl font-bold">&#169;2024, Fuhad Hasan Shiblu | All Rights Reserved</footer>
+      <footer className="absolute left-[50%] translate-x-[-50%] mt-5 text-lg font-light">&#169;2024, <span className="font-bold">Fuhad Hasan Shiblu</span> | All Rights Reserved</footer>
     </>
   )
 }
