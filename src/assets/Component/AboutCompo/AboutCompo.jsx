@@ -14,7 +14,7 @@ const AboutCompo = () => {
         </div>
         <div className="flex flex-col gap-[50px]">
           <h2 className='fuhadShiblu_skillsLine relative uppercase font-bold text-white text-[30px] w-[200px] text-center'>my skills</h2>
-          <div className="flex justify-between gap-5 flex-wrap">
+          <div className="flex justify-between gap-10 flex-wrap">
             <div class="card">
               <p class="card-title">HTML</p>
               <p class="small-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat veritatis nobis saepe itaque rerum nostrum aliquid obcaecati odio officia deleniti. Expedita iste et illum, quaerat pariatur consequatur eum nihil itaque!</p>

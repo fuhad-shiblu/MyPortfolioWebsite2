@@ -10,7 +10,7 @@ import '../HomeCompo/HomeCompo.css'
 const HomeCompo = () => {
   return (
     <>
-      <div className="fuhadShiblu_bs w-[4000px] h-[500px] bg-[rgba(0,0,0,0.5)] overflow-hidden rounded-2xl items-center flex pl-5 justify-between pr-5">
+      <div className="fuhadShiblu_setHomeScroll w-[4000px] h-[500px] bg-[rgba(0,0,0,0.5)] overflow-hidden rounded-2xl items-center flex pl-5 justify-between pr-5">
         <div className="flex flex-col gap-[100px] items-center">
             <h1 className="font-bold text-[30px] text-white text-center">Hello, I'm Fuhad Hasan Shiblu <span className="block">I'm a Front-End Web Developer</span></h1>
             <Link className="text-xl text-[#C63C51] bg-[#6EACDA] p-5 font-bold rounded-xl border-2 border-solid border-[#6EACDA] hover:bg-[rgba(110,171,218,0.5)] transition-all"  download='resume' to='#'>Download CV</Link>

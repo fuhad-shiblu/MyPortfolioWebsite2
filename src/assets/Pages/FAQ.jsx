@@ -1,8 +1,9 @@
+import FAQCompo from "../Component/FAQCompo/FAQCompo"
 
 const FAQ = () => {
   return (
     <>
-      <h1>FAQPage</h1>
+      <FAQCompo/>
     </>
   )
 }

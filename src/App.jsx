@@ -7,6 +7,7 @@ import Contact from './assets/Pages/Contact'
 import Projects from './assets/Pages/Projects'
 import FAQ from './assets/Pages/FAQ'
 import Blog from './assets/Pages/Blog'
+import Products from './assets/Pages/Products'
 
 function App() {
   const route = createBrowserRouter(
@@ -17,6 +18,7 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/projects' element={<Projects/>}/>
+          <Route path='/products' element={<Products/>}/>
           <Route path='/faq' element={<FAQ/>}/>
           <Route path='/blog' element={<Blog/>}/>
         </Route>

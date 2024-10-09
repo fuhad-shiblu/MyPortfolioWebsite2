@@ -1,8 +1,9 @@
+import BlogCompo from "../Component/BlogCompo/BlogCompo"
 
 const Blog = () => {
   return (
     <>
-      <h1>BlogPage</h1>
+      <BlogCompo/>
     </>
   )
 }

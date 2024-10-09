@@ -28,7 +28,7 @@
     @apply text-[15px] text-justify font-normal text-[#452c2c];
 }
 .card{
-    @apply w-[300px] h-[300px] relative bg-[#f2f8f9] rounded-[10px] p-5 transition-all hover:scale-[1.05] rotate-[-5deg] hover:rotate-0 active:rotate-[5deg];
+    @apply w-[250px] h-[250px] relative bg-[#f2f8f9] rounded-[10px] p-5 transition-all hover:scale-[1.05] rotate-[-5deg] hover:rotate-0 active:rotate-[5deg];
     z-index: 0;
     overflow: hidden;
     background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);

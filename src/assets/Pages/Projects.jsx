@@ -1,8 +1,9 @@
+import ProjectsCompo from "../Component/ProjectsCompo/ProjectsCompo"
 
 const Projects = () => {
   return (
     <>
-      <h1>ProjectsPage</h1>
+      <ProjectsCompo/>
     </>
   )
 }
