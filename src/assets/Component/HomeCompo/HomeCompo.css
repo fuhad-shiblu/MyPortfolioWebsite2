@@ -15,14 +15,11 @@
         background-color: #0000bd;
     }
   }
-.fuhadShiblu_setHomeScroll::-webkit-scrollbar{
-    width: 10px;
-}
-.fuhadShiblu_setHomeScroll:hover::-webkit-scrollbar-track{
-    background: #ffffff;
-    border-radius: 10px;
-}
-.fuhadShiblu_setHomeScroll:hover::-webkit-scrollbar-thumb{
-    background: #adadad;
-    border-radius: 10px;
-}
+
+
+  /* ===== Responsive for 320px devices ===== */
+  @media (min-width: 320px) and (max-width: 639.98) {
+    .fuhadShiblu_resDesign{
+        
+    }
+  }

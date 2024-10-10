@@ -1,0 +1,10 @@
+.fuhadShiblu_setMobScroll::-webkit-scrollbar{
+    width: 5px;
+  }
+  .fuhadShiblu_setMobScroll::-webkit-scrollbar-track{
+    background: rgba(240, 236, 236, 0.11);
+  }
+  .fuhadShiblu_setMobScroll::-webkit-scrollbar-thumb{
+    background: #03C988;
+    border-radius: 50px;
+  }

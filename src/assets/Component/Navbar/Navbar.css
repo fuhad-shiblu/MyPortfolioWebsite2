@@ -1,12 +1,12 @@
 .fuhadShiblu_setNavScroll::-webkit-scrollbar{
     width: 10px;
   }
-  .fuhadShiblu_setNavScroll:hover::-webkit-scrollbar-track{
-    background: #ffffff;
+  .fuhadShiblu_setNavScroll::-webkit-scrollbar-track{
+    background: rgba(255, 255, 255, 0.11);
     border-radius: 10px;
   }
-  .fuhadShiblu_setNavScroll:hover::-webkit-scrollbar-thumb{
-    background: #adadad;
+  .fuhadShiblu_setNavScroll::-webkit-scrollbar-thumb{
+    background: #03C988;
     border-radius: 10px;
   }
   .fuhadShiblu_setNavScroll{

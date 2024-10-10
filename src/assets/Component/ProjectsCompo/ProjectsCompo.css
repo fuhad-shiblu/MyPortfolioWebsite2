@@ -16,3 +16,28 @@
     @apply absolute bg-[#ff1818] w-full h-1 bottom-0 left-[50%] translate-x-[-50%];
     content: '';
 }
+.fuhadShiblu_ARlss{
+    width: 100%;
+    height: 100%;
+    background: url(../../../../public/img/ARDOXSS.png);
+    background-size: cover;
+    background-position: center;
+}
+.fuhadShiblu_ARlss:hover .fuhadShiblu_ARlpv{
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 10px;
+}
+
+
+
+.fuhadShiblu_Frlss{
+    width: 100%;
+    height: 100%;
+    background: url(../../../../public/img/FreshSS.png);
+    background-size: cover;
+    background-position: center;
+}
+.fuhadShiblu_Frlss:hover .fuhadShiblu_Frlpv{
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 10px;
+}
